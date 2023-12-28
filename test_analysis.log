@@ -1,0 +1,58 @@
+Test Report Analysis - 2023-12-22 16:48:40.815246
+Number of Tests: 3
+Number of Tests Passed: 2
+Number of Tests Failed: 1
+Total Duration: 24.66 seconds
+
+Test Case: test_login.py::TestGoogle::test_login_case1
+Outcome: passed
+Duration: 20.78 seconds
+
+Test Case: test_login.py::TestGoogle::test_login_case2
+Outcome: passed
+Duration: 2.03 seconds
+
+Test Case: test_login.py::TestGoogle::test_login_case3
+Outcome: failed
+Duration: 4.10 seconds
+Failure Message: self = <test_login.TestGoogle object at 0x0000024077C8DAD0>, browser = <selenium.webdriver.chrome.webdriver.WebDriver (session="043d71b2797a731b21ecdba5a11c9626")>
+
+    @pytest.mark.usefixtures("browser")
+    def test_login_case3(self, browser):
+        browser.get(base_url)
+        wait = WebDriverWait(browser, 10)
+    
+        email_element = wait.until(expected_conditions.element_to_be_clickable((By.CSS_SELECTOR, ".w-full:nth-child(4)")))
+        email_element.click()
+    
+        send_email_element = wait.until(expected_conditions.element_to_be_clickable((By.CSS_SELECTOR, ".w-full:nth-child(4)")))
+        send_email_element.send_keys(email)
+    
+        password_element = wait.until(expected_conditions.element_to_be_clickable((By.CSS_SELECTOR, ".border:nth-child(1)")))
+        password_element.click()
+    
+        send_password_element = wait.until(expected_conditions.element_to_be_clickable((By.CSS_SELECTOR, ".border:nth-child(1)")))
+        send_password_element.send_keys(password)
+    
+        show_password = wait.until(expected_conditions.element_to_be_clickable((By.CSS_SELECTOR, ".absolute > svg")))
+        show_password.click()
+    
+        login_button = wait.until(expected_conditions.element_to_be_clickable((By.CSS_SELECTOR, ".btn-primary")))
+        login_button.click()
+    
+        try:
+            # Wait for the "Post new job" element
+            WebDriverWait(browser, 10).until(expected_conditions.presence_of_element_located((By.XPATH, "//span[text()='Post new job']")))
+            print('Successfully logged in')
+    
+        except TimeoutException:
+            assert False, "Test failed due to incorrect username or password"
+    
+        # Check if "Post new job" is present after login
+>       assert "Post new qjob" in browser.page_source, "Post new job not found after login"
+E       AssertionError: Post new job not found after login
+E       assert 'Post new qjob' in '<html lang="en"><head><meta charset="utf-8"><link rel="icon" href="/recruiter-logo.png"><link rel="preconnect" href="...56Z" fill="#FFFFFF"></path></svg></button></section></div></div></div><div class="Toastify"></div></div></body></html>'
+E        +  where '<html lang="en"><head><meta charset="utf-8"><link rel="icon" href="/recruiter-logo.png"><link rel="preconnect" href="...56Z" fill="#FFFFFF"></path></svg></button></section></div></div></div><div class="Toastify"></div></div></body></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session="043d71b2797a731b21ecdba5a11c9626")>.page_source
+
+test_login.py:123: AssertionError
+
