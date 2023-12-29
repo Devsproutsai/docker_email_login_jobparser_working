@@ -1,0 +1,14 @@
+Test Report Analysis - 2023-12-29 21:34:20.567093
+Number of Tests: 2
+Number of Tests Passed: 2
+Number of Tests Failed: 0
+Total Duration: 84.18 seconds
+
+Test Case: test_jobparser.py::TestGoogle::test_login_case1
+Outcome: passed
+Duration: 20.22 seconds
+
+Test Case: test_jobparser.py::TestGoogle::test_empty_jobparser_testing
+Outcome: passed
+Duration: 61.99 seconds
+
