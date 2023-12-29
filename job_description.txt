@@ -1,0 +1,75 @@
+ecognized in the world, using cutting-edge technology and innovative
+approaches. As a Data Scientist at Truman, you will play a crucial role in leveraging data
+to build robust algorithms and process large amounts of unstructured, and structured
+data. You will have the opportunity to work with a talented and experienced team to
+develop new products and solutions that we believe will change the world.
+Using a tech stack that includes GOLang, Neo4j, and various other advanced
+technologies, Truman is at the forefront of API development and data optimization. As a
+Data Scientist, your responsibilities will include scraping data, analyzing data,
+developing algorithms, and providing data-driven recommendations to enhance the
+performance and scalability of our backend systems. Proficiency in FastAPI, Open
+Source Intelligence (OSINT), Google NLP models, AWS cloud platform, RESTful and
+GraphQL APIs, as well as SQL, is essential for this role.
+Key Responsibilities:
+● Collaborate with the backend team to develop fast and robust api's leveraging
+data and applying machine learning techniques.
+● Analyze data collected to enrich information about our users and their
+backgrounds
+● Develop and optimize data processes using technologies such as Open Source
+Intelligence, Google NLP models, and GPT models.
+● Ensure the security, scalability, and compliance of our backend systems, adhering
+to industry standards.
+● Possess the ability to scrape data from various online sources and web
+platforms, and store and organize this data efficiently for analysis purposes.
+● Apply Natural Language Processing (NLP) techniques to process and analyze
+large amounts of textual data, extracting meaningful insights and patterns.
+● Demonstrate expertise in building robust and accurate algorithms for data
+analysis, predictive modeling, and machine learning applications.
+● Employ advanced techniques to handle unstructured data and text mining tasks,
+including text classification, sentiment analysis, and entity recognition.
+● Develop and implement scalable solutions for handling and processing big data,
+ensuring efficient storage, retrieval, and computation.
+● Collaborate with data engineers to design and optimize data pipelines, ensuring
+smooth and reliable data ingestion and transformation.
+● Continuously evaluate and improve the performance of data processing and
+analysis pipelines, implementing strategies to enhance efficiency, accuracy, and
+scalability.
+● Stay up-to-date with the latest advancements in web scraping, NLP, and algorithm
+development, incorporating relevant techniques and methodologies into data
+science practices.
+● Conduct thorough testing and validation of algorithms to ensure their robustness,
+accuracy, and generalization capabilities.
+● Document and communicate algorithmic approaches, methodologies, and
+results effectively to both technical and non-technical stakeholders.
+Requirements:
+● Bachelor's degree in Computer Science, Engineering, Statistics, or a related field;
+a Master's degree is a plus.
+● 5+ years of experience in data science, machine learning, or a related field.
+● Proficiency in programming languages such as Python, R, or similar languages
+commonly used in data science.
+● Strong knowledge of machine learning algorithms, statistical analysis, and data
+visualization techniques.
+● Experience with data manipulation and analysis using SQL and other database
+query languages.
+● Familiarity with data storage and processing technologies, such as Hadoop,
+Spark, or similar frameworks.
+● Strong problem-solving and analytical skills, with the ability to work on complex
+data sets and derive actionable insights.
+● Excellent communication and presentation skills, with the ability to explain
+complex concepts to non-technical stakeholders.
+● Experience working with large-scale datasets and cloud platforms (e.g., AWS,
+Google Cloud) is a plus.
+● A passion for innovation and a desire to make a significant impact in the industry.
+Preferred (not necessary):
+● Full-stack development experience.
+● Knowledge of data engineering principles and tools.
+● Experience with deep learning frameworks (e.g., TensorFlow, PyTorch).
+At Truman, we value staying ahead of the curve by embracing emerging technologies
+and trends. As a Data Scientist, you will have the opportunity to contribute to our
+technology strategy and drive innovation in our industry.
+If you are a talented and experienced Data Scientist with a passion for innovation and a
+dedication to excellence, we encourage you to apply for this exciting opportunity. Join
+us at Truman and be a part of changing the world.
+To apply:
+Please send your resume and any relevant work samples to
+tushar.mehrotra27@gmail.com or apply for the job through our post
